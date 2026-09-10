@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+	<title>Retrouve ton parrain !</title>
+	<link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="logo.webp">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>   
+        <div id="logo"><img src="logo.webp" width="500"></div>
+    </header>
+
+    <section class="intro">
+        <h1>Retrouvez votre parrain !</h1>
+        <p>Cliquez sur chaque image pour obtenir des indices.</p>
+    </section>
+
+    <main class="gallery">
+
+    <div class="image-container">
+        <img src="texture.jpg" alt="Image 1" onclick="openInfo(1)">
+    </div>
+
+    <div class="image-container">
+        <img src="texture.jpg" alt="Image 2" onclick="openInfo(2)">
+    </div>
+
+    <div class="image-container">
+        <img src="texture.jpg" alt="Image 3" onclick="openInfo(3)">
+    </div>
+
+    <div class="image-container">
+        <img src="texture.jpg" alt="Image 4" onclick="openInfo(4)">
+    </div>
+
+    <div class="image-container">
+        <img src="texture.jpg" alt="Image 5" onclick="openInfo(5)">
+    </div>
+
+    <div class="image-container">
+        <img src="texture.jpg" alt="Image 6" onclick="openInfo(6)">
+    </div>
+
+    <div class="image-container">
+        <img src="texture.jpg" alt="Image 7" onclick="openInfo(7)">
+    </div>
+
+    <div class="image-container">
+        <img src="texture.jpg" alt="Image 8" onclick="openInfo(8)">
+    </div>
+
+    <div class="image-container">
+        <img src="texture.jpg" alt="Image 9" onclick="openInfo(9)">
+    </div>
+
+    <div id="infoOverlay" class="info-overlay"> <div class="info-box"> <button class="close-button" onclick="closeInfo()">×</button> <h2 id="infoTitle"></h2> <p id="infoText"></p> </div> </div>
+
+    </main>
+</body>
